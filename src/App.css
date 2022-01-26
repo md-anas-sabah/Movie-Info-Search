@@ -1,6 +1,8 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+/* .App {
+  background-color: rgb(12, 1, 1);
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +37,82 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* CSS for movie-search */
+body {
+  background-color: #282c34;
+  max-height: 100vh;
+}
+.container {
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15%;
+  color: white;
+}
+.heading {
+  font-family: Rampart One;
+}
+.padd {
+  padding: 15px;
+}
+.search-field {
+  width: 80%;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: none;
+  text-indent: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.movie {
+  /* background-color: grey; */
+  padding: 5px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.poster {
+  height: 600px;
+  width: 33%;
+  overflow: hidden;
+}
+.details {
+  width: 65%;
+}
+.poster-img {
+  width: 100%;
+}
+.padd > p {
+  font-size: 15px;
+}
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+.ratings {
+  display: flex;
+}
+.ratings > div {
+  margin-right: 20px;
+}
+.field-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.btn {
+  width: 17%;
+  font-size: 15px;
+  color: wheat;
+  background-color: rgb(110, 110, 216);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  outline: none;
 }
